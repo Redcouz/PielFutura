@@ -52,3 +52,126 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+## Ignorar carpetas de compilación de .NET
+bin/
+obj/
+out/
+
+## Ignorar carpetas de paquetes NuGet
+packages/
+*.nupkg
+*.snupkg
+
+## Ignorar archivos de usuario y configuración de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+
+## Ignorar archivos de caché y temporales
+*.cache
+*.log
+*.tmp
+*.temp
+
+## Ignorar archivos de configuración con datos sensibles
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+client_secret_*.json
+*.csproj.user
+
+## Ignorar carpeta de publicación
+wwwroot/dist/
+wwwroot/build/
+publish/
+PublishProfiles/
+
+## Ignorar archivos de base de datos local
+*.mdf
+*.ldf
+*.db
+*.db-shm
+*.db-wal
+App_Data/
+
+## Ignorar archivos de Node.js (si usas npm/webpack)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+## Ignorar archivos de JavaScript compilados/minificados
+wwwroot/js/dist/
+wwwroot/css/dist/
+*.min.js
+*.min.css
+
+## Ignorar carpetas de herramientas
+.sass-cache/
+bower_components/
+.grunt/
+
+## Ignorar archivos de Rider (JetBrains)
+.idea/
+*.sln.iml
+
+## Ignorar archivos de Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Ignorar archivos de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Ignorar archivos de backup
+*.bak
+*.swp
+*~
+
+## Ignorar certificados y claves
+*.pfx
+*.p12
+*.key
+*.pem
+*.cer
+
+## Ignorar archivos grandes y binarios (PDFs específicos del proyecto)
+# Descomenta si tus PDFs son generados dinámicamente
+# *.pdf
+
+## Específico para tu proyecto
+# Si pdf.js y pdf.worker.js son librerías descargables, déjalos
+# Si son parte del build, ignóralos:
+# pdf.js
+# pdf.worker.js
+
+## Ignorar archivos de Entity Framework Migrations (opcional)
+# Migrations/
+
+## Ignorar archivos de testing
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Ignorar archivos de Resharper
+_ReSharper*/
+*.ReSharper
+
+## Ignorar archivos de Docker (si los usas)
+docker-compose.override.yml
+.dockerignore
+
+## Ignorar archivos de logs específicos de IIS
+*.iislog
+
+## Configuración local de launch settings (opcional, algunos prefieren versionarlo)
+# Properties/launchSettings.json
